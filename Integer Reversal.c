@@ -7,9 +7,9 @@ int main() {
     scanf("%d", &n);
 
     while (n != 0) {
-        int digit = n % 10;      // Get the last digit
-        reversed = reversed * 10 + digit;  // Append the digit to reversed number
-        n /= 10;                 // Remove the last digit
+        int digit = n % 10;
+        reversed = reversed * 10 + digit; 
+        n /= 10;                 
     }
 
     printf("Reversed number: %d\n", reversed);
